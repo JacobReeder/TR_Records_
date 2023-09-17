@@ -1,4 +1,5 @@
 import React from 'react';
+import PhotoList from '../Photolist'; 
 
 
 const Releases = () => {
@@ -6,10 +7,10 @@ const Releases = () => {
     return (
         <div>
             <hi>
-                <div></div>
+                <div><PhotoList/></div>
             </hi>
 
-            <h3></h3>
+            <h3 className="link-style"></h3>
         </div>
     )
 }

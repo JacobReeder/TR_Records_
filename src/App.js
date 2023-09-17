@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import './App.css';
 
+import Navigation from './components/Navigation';
 import About from './components/About';
-import Nav from './components/Nav';
 import Releases from './components/Releases';
 
 
@@ -29,7 +30,7 @@ function App() {
     <div>
       <div>
         <a href='/'></a>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange}></Navigation>
 
       </div>
       <main>

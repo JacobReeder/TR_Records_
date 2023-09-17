@@ -6,7 +6,7 @@ function About() {
   return (
     <section id="about-section">
 
-      <h1>
+      <h1 id="about">
         lllllll
       </h1>
       <div className="my-2">

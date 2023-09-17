@@ -6,7 +6,7 @@ const Nav = ({ currentPage, handlePageChange }) => {
    
     
     return (
-        <header style={{ backgroundImage: `url(${coverImage})`}}>
+        <header className="flex-row px-1" style={{ backgroundImage: `url(${coverImage})`}}>
 
             <h2>
 

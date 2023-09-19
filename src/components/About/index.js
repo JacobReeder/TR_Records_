@@ -8,7 +8,7 @@ function About() {
 
       <h1 id="about">
         lllllll
-      </h1>
+      
       <div className="my-2">
         <li>
           <p>pppp
@@ -16,6 +16,7 @@ function About() {
           </p>
         </li>
       </div>
+      </h1>
      
     </section>
   );

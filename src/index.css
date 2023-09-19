@@ -65,7 +65,7 @@ header {
 }
 
 header a {
-  color: var(--secondary);
+  color: var(--light);
   font-weight:500;
   
 }
@@ -98,7 +98,9 @@ h2 {
  
 
 
-
+nav a {  
+  margin: 10px 0;  
+}
 
 .px-1 {  /*Header title and nav spacing **/
   padding-right: var(--spacing-one);

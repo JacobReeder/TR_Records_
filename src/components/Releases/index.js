@@ -5,13 +5,15 @@ import PhotoList from '../Photolist';
 const Releases = () => {
 
     return (
-        <div>
-            <hi>
+       
+          <div>
+              <h1>
                 <div><PhotoList/></div>
-            </hi>
+              </h1>
 
-            <h3 className="link-style"></h3>
-        </div>
+              <h3 className="link-style"></h3>
+            </div>
+        
     )
 }
 

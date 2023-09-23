@@ -17,7 +17,7 @@ const PhotoList = () => {
       name: 'Torture Tomb - "S/T"',
       url: '',
       repo: '',
-      screenshot: 'https://github.com/JacobReeder/Counting-Calz/raw/main/public/images/Screenshot.png',
+      screenshot: 'https://github.com/JacobReeder/TR_Records_/raw/main/public/images/torture-tomb.png',
       /*clicklink: 'Click for Budget Tracker Repo'*/
     },
 

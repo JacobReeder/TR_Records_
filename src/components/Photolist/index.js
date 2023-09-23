@@ -6,18 +6,18 @@ const PhotoList = () => {
 
   const [photos] = useState([
     {
-      name: '',
+      name: 'Torture Tomb "S/T"',
       url: '',
       repo: '',
-      screenshot: '',
+      screenshot: 'https://github.com/JacobReeder/Counting-Calz/raw/main/public/images/Screenshot.png',
       clicklink: 'Click for album release/link to bandcamp?'
      
     },
     {
       name: 'Torture Tomb - "S/T"',
-      url: ' https://mighty-temple-15168.herokuapp.com/',
+      url: '',
       repo: '',
-      screenshot: 'https://user-images.githubusercontent.com/97851357/175190935-5d004a28-bc3f-478b-9fcf-c52bbe9692d2.png',
+      screenshot: 'https://github.com/JacobReeder/Counting-Calz/raw/main/public/images/Screenshot.png',
       /*clicklink: 'Click for Budget Tracker Repo'*/
     },
 

@@ -88,24 +88,36 @@ img {
 }
 
 /** NAVIGATION **/
+.navigation { 
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); 
+  
+  justify-content:space-evenly;
+  align-items: center;
+  list-style: none;  
+}
 h2 {
   font-size: 2rem; 
   text-align:center
+  
 }
 
 nav a {  
   margin: 10px 0;  
+  
 }
 
 /*Header title and nav spacing **/
 .px-1 {  
   padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);  
+  padding-left: var(--spacing-one); 
+   
 }
 
 .flex-row {
   display: flex;
   flex-wrap: wrap; 
+  justify-content:space-evenly;
+   
 }
 
 li {

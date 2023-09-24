@@ -7,7 +7,7 @@ main {
 :root {
   --primary: #0e0c0d;
   --secondary: #0e0c0d;
-  --tertiary: #414344;
+  --tertiary: #232324;
   --light: #EDF2F4;
   --dark: #0e0c0d;
   --darker: #111111;
@@ -19,7 +19,7 @@ main {
 }
 
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 html,
@@ -34,8 +34,8 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--tertiary);
-  color: var(--secondary);
+  background: var(--secondary);
+  color: var(--secondary);    
   font-family: 'Poiret One';
 }
 
@@ -65,7 +65,7 @@ header {
 }
 
 header a {
-  color: var(--light);
+  color: rgba(249, 241, 241, 0.5);
   font-weight:500;
   
 }
@@ -73,10 +73,9 @@ header a {
 
 /** Text Link Nav Styles **/
 a {
-  color: var(--light);
+  color: rgba(249, 241, 241, 0.5);
   text-decoration: none;
-  font-weight: 500;
-  
+  font-weight: 500; 
 }
 
 a:hover {
@@ -86,23 +85,20 @@ a:hover {
 /** Size of imported images **/
 img {
   max-width: 50%;
-
 }
 
 /** NAVIGATION **/
 h2 {
   font-size: 2rem; 
-  text-align:right
+  text-align:center
 }
-
- 
-
 
 nav a {  
   margin: 10px 0;  
 }
 
-.px-1 {  /*Header title and nav spacing **/
+/*Header title and nav spacing **/
+.px-1 {  
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);  
 }
@@ -123,23 +119,26 @@ h1 {
   font-size: 2.25rem; 
   padding: 3rem 0;
   display: grid;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); 
+  box-shadow: 3px 3px 10px rgba(249, 241, 241, 0.5); 
   padding: 3rem 0;
-  text-align: right
+  text-align: center
 }
 
-/*.about-section {
-
+.about-section {
+  color: rgba(249, 241, 241, 0.5);
+  font-weight:500;
 }
 
-.about {
+/*.about {
   
 }*/
 
 /*About me body*/
 p {
   font-size: 1.1rem;
-  margin-top: 0;  
+  margin-top: 0; 
+  color: rgba(249, 241, 241, 0.5);
+  
 }
 /** ABOUT ME END **/
 
@@ -148,11 +147,6 @@ p {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .space-between {

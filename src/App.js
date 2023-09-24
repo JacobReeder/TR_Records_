@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div>
-      <div>
+      <div> 
         <a href='/'></a>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange}></Navigation>
 

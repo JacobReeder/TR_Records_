@@ -15,9 +15,9 @@ const PhotoList = () => {
     },
     {
       name: 'Torture Tomb - "S/T"',
-      url: '',
-      repo: '',
-      screenshot: 'https://github.com/JacobReeder/TR_Records_/blob/main/public/images/torture-tomb.png',
+     // url: '',
+     // repo: '',
+      screenshot: 'https://github.com/JacobReeder/TR_Records_/raw/main/src/assets/small/torture-tomb.png',
       /*clicklink: 'Click for Budget Tracker Repo'*/
     },
 

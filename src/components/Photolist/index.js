@@ -6,7 +6,7 @@ const PhotoList = () => {
 
   const [photos] = useState([
     {
-      name: 'Torture Tomb "S/T"',
+      name: 'Random Repo',
       url: '',
       repo: '',
       screenshot: 'https://github.com/JacobReeder/Counting-Calz/raw/main/public/images/Screenshot.png',
@@ -18,8 +18,15 @@ const PhotoList = () => {
       url: '',
       repo: '',
       screenshot: 'https://github.com/JacobReeder/TR_Records_/raw/main/src/assets/small/torture-tomb.png',
-      clicklink: 'Click for Budget Tracker Repo'
+      clicklink: ''
     },
+    {
+      name: 'False Figure',
+      url: '',
+      repo: '',
+      screenshot: '',
+      clicklink: ''
+    }
 
   ])
 

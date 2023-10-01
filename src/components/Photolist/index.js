@@ -15,10 +15,10 @@ const PhotoList = () => {
     },
     {
       name: 'Torture Tomb - "S/T"',
-     // url: '',
-     // repo: '',
+      url: '',
+      repo: '',
       screenshot: 'https://github.com/JacobReeder/TR_Records_/raw/main/src/assets/small/torture-tomb.png',
-      /*clicklink: 'Click for Budget Tracker Repo'*/
+      clicklink: 'Click for Budget Tracker Repo'
     },
 
   ])
@@ -31,7 +31,7 @@ return (
     return (
     <div>
       <h2>{projectMapped.name}</h2>
-      <h3>
+    
       <a href={projectMapped.url}>
         <img
           src={projectMapped.screenshot}
@@ -39,7 +39,7 @@ return (
           key={projectMapped.name}
         />
       </a>
-      </h3>
+    
       <a href={projectMapped.repo}>{projectMapped.name} </a>
       
     </div>

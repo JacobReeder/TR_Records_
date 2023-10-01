@@ -24,7 +24,7 @@ const PhotoList = () => {
       name: 'False Figure',
       url: '',
       repo: '',
-      screenshot: 'https://github.com/JacobReeder/TR_Records_/blob/main/public/images/ff.jpeg',
+      screenshot: 'https://github.com/JacobReeder/TR_Records_/raw/main/public/images/ff.jpeg',
       clicklink: ''
     }
 

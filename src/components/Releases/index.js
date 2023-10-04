@@ -11,7 +11,8 @@ const Releases = () => {
               <h1>
                 <div>
                   <PhotoList/>
-                  
+                  <img src="/images/ff.png" />
+                  <img src="/images/torture-tomb.png" />
                 </div>
 
                   

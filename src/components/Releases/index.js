@@ -3,25 +3,16 @@ import PhotoList from '../Photolist';
 
 
 
-const Releases = () => {
+function Releases(props) {
+   const { currentCategory } = props;
 
     return (
-       
-          <div>
-              <h1>
-                <div>
-                  <PhotoList/>
-                  <img src="/images/ff.png" />
-                  <img src="/images/torture-tomb.png" />
-                </div>
-
-                  
-              </h1>
-
-              <h3 className="link-style"></h3>
-            </div>
-        
-    )
+          <section>
+              
+              <p>{currentCategory.description}</p>
+                  <PhotoList category={currentCategory.name}/>
+         </section>     
+      );
 }
 
 export default Releases;

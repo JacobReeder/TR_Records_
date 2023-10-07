@@ -2,59 +2,47 @@ import React, { useState } from 'react';
 
 
 
-const PhotoList = () => {
-
+const PhotoList = ({category}) => {
   const [photos] = useState([
     {
       name: '',
-      url: '',
-      repo: '',
-      screenshot: '',
-      clicklink: ''
+      category: 'albums',
+      description: '',
+      
      
     },
     {
       name: '',
-      url: '',
-      repo: '',
-      screenshot: '',
-      clicklink: ''
+      category: 'albums',
+      description: '',
+      
     },
     {
       name: '',
-      url: '',
-      repo: '',
-      screenshot: '',
-      clicklink: ''
+      category: 'albums',
+      description: '',
+     
     }
 
-  ])
+  ]);
 
-  
+  const currentPhotos = photos.filter(photo => photo.category === category);
 
 return (
-    <>
-  {photos.map((projectMapped => {
-    return (
     <div>
-      <h2>{projectMapped.name}</h2>
-    
-      <a href={projectMapped.url}>
+      <div>
+      {currentPhotos.map((image, i) => (
         <img
-          src={projectMapped.screenshot}
-          alt={projectMapped.name}
-          key={projectMapped.name}
+          src={require(`../../assets/small/${category}/${i}.jpg`).default}
+          alt={image.name}
+          key={image.name}
         />
-      </a>
-    
-      <a href={projectMapped.repo}>{projectMapped.name} </a>
-      
+      ))}
     </div>
-    )
-  }))}
-</>
-)
-}
+    </div>
+
+);
+};
 
 
 

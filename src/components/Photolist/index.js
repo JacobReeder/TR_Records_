@@ -4,8 +4,6 @@ import React, { useState } from 'react';
 
 const PhotoList = ({category}) => {
 
-  
-
   const [photos] = useState([
     {
       name: 'False Figure',
@@ -26,9 +24,9 @@ const PhotoList = ({category}) => {
 
   const currentPhotos = photos.filter(photo => photo.category === category);
 
-return (
+  return (
     
-      <div className="flex-row">
+    <div className="flex-row">
       {currentPhotos.map((image, i) => (
         <img
           src={require(`../../assets/small/${category}/${i}.jpg`).default}
@@ -38,10 +36,7 @@ return (
         />
       ))}
     </div>
-    
-    
-
-);
+  );
 };
 
 

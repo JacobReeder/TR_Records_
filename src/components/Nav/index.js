@@ -19,28 +19,29 @@ function Nav(props) {
     return (
         <header>
             <h2 className= "flex-row px-1">
-                    <a data-testid="link" href="/"><span></span></a>
+                    <a data-testid="link" href="/"><span>Transylvanian Recordings</span></a>
             </h2>
 
           <nav>
-              <ul className=""> 
-                    <li>
+              <ul className="flex-row"> 
+                    <li className="mx-2">
                         <a data-testid="about" href="#about" onClick={() => handleClick('#about')}>
                         About
                         </a>
                    </li>
-                   <li>
+                   <li className={"mx-2"}>
                     <a data-testid="releases" href="#releases" onClick={() => handleClick('#releases')}>
                     Releases
                     </a>
                   </li>
                   { categories.map((category) => (
-                    <li className= { `${currentCategory.name === category.name}`}
-                    key={category.name}>
-                    <span onClick={() => {
-                    setCurrentCategory(category);
-                    }}>{capitalizeFirstLetter(category.name)}</span>
-                    </li>
+                     <li className= { `mx-1 ${currentCategory.name === category.name}`}
+                          key={category.name}>
+                          <span onClick={() => {
+                              setCurrentCategory(category);
+                              }}>{capitalizeFirstLetter(category.name)}
+                           </span>
+                      </li>
                     )) 
                     }  
               </ul>

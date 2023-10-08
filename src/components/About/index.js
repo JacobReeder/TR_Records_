@@ -4,20 +4,13 @@ import React from 'react';
 
 function About() {
   return (
-    <section id="about-section">
-
-      <h1 id="about">
-       <a>lllllll</a>
-      
-      <div className="my-2">
-        <li>
-          <p>pppp
-
+    <section className="">
+      <h1 id="about">Transylvanian Recordings</h1>
+      <div className="">
+          <p>
+             About section
           </p>
-        </li>
       </div>
-      </h1>
-     
     </section>
   );
 }

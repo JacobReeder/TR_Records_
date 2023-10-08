@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navigation from './components/Navigation';
+import Nav from './components/Nav';
 import About from './components/About';
 import Releases from './components/Releases';
 import './App.css';
@@ -8,39 +8,29 @@ function App() {
   
   const [categories] = useState([
     {
-      name: '',
-      description: '',
+      name: 'Albums',
+      description: 'Releases',
     }
     
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  const [releasesSelected, setReleasesSelected] = useState(false);
+  const [currentCategory, setCurrentCategory, ] = useState(categories[0]);
+  
 
   return (
-    
-      <div> 
-        
-        <Navigation 
-           categories={categories}
-           setCurrentCategory={setCurrentCategory}
-           currentCategory={currentCategory}
-           releasesSelected={releasesSelected}
-           setReleasesSelected={setReleasesSelected}
-           ></Navigation>
-           <main>
-            {!releasesSelected ? (
-              <>
-            <Releases currentCategory={currentCategory}></Releases>
-            <About></About>
-            </>
-            ) : (
-              <></>
-            )}
-           </main>
-
-      </div>
-     
+    <div> 
+      <Nav
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+      ></Nav>
+      <main>
+            
+        <About></About>
+        <Releases currentCategory={currentCategory}></Releases>
+            
+      </main>
+    </div>
   );
 }
 

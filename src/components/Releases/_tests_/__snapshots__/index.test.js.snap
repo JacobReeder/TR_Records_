@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Releases component matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      data-testid="h1tag"
+      id="releases"
+    >
+      Portraits
+    </h1>
+    <div>
+      <p>
+        Portraits of people in my life
+      </p>
+      <div
+        class="flex-row"
+      />
+    </div>
+  </section>
+</DocumentFragment>
+`;

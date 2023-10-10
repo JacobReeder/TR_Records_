@@ -1,9 +1,23 @@
 import React from 'react';
 import PhotoList from '../Photolist'; 
-import { capitalizeFirstLetter } from '../../utils/helpers';
+//import { capitalizeFirstLetter } from '../../utils/helpers';
 
+const Releases = () => {
 
+      return (
 
+            <div>
+                  <h1>
+                        <div><PhotoList /></div>
+                  </h1>
+                  <h3></h3>
+            </div>
+      )
+}
+
+export default Releases;
+
+/*
 function Releases(props) {
    const { currentCategory } = props;
 
@@ -20,4 +34,4 @@ function Releases(props) {
       );
 }
 
-export default Releases;
+export default Releases; */

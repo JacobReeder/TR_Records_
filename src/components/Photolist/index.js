@@ -8,6 +8,58 @@ const PhotoList = ({category}) => {
     {
       name: 'False Figure',
       category: 'Albums',
+      description: '../../assets/small/0.jpg',
+      
+     
+    },
+    {
+      name: 'Torture Chamber',
+      category: 'Albums',
+      description: 'poi',
+      
+    },
+    
+
+  ]);
+
+
+  return (
+    
+    <>
+  {photos.map((projectMapped => {
+    return (
+    <div>
+      <h2>{projectMapped.name}</h2>
+      <h3>
+      <a href={projectMapped.category}>
+        <img
+          src={projectMapped.description}
+          alt={projectMapped.name}
+          key={projectMapped.name}
+        />
+      </a>
+      </h3>
+      <a>{projectMapped.name} </a>
+      
+    </div>
+    )
+  }))}
+</>
+  );
+};
+
+
+
+export default PhotoList;  
+
+
+/*
+const PhotoList = ({category}) => {
+
+  const [photos] = useState([
+    {
+      name: 'False Figure',
+      category: 'Albums',
       description: 'ppppp',
       
      
@@ -41,4 +93,4 @@ const PhotoList = ({category}) => {
 
 
 
-export default PhotoList;
+export default PhotoList;  */

@@ -1,7 +1,28 @@
 import React from 'react';
 
+function About() {
 
+  return (
 
+    <section>
+
+      <h1>
+
+      </h1>
+      <div>
+        <li>
+          <p>
+            llll
+          </p>
+        </li>
+      </div>
+    </section>
+  )
+}
+
+export default About;
+
+/*
 function About() {
   return (
     <section className="my-5">
@@ -15,4 +36,4 @@ function About() {
   );
 }
 
-export default About;
+export default About; */

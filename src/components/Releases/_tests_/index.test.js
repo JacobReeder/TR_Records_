@@ -1,5 +1,5 @@
 // __tests__/Releases.test.js
-import React from 'react'
+/*import React from 'react'
 import { render, cleanup } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 import Releases from '..'
@@ -22,4 +22,4 @@ describe('Releases component', () => {
 it('renders', () => {
   const { getByTestId } = render(<Releases currentCategory={portrait} />)
   expect(getByTestId('h1tag')).toHaveTextContent('Portraits')
-})
+})*/

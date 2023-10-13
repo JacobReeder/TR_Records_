@@ -1,5 +1,6 @@
 import React from 'react';
-import PhotoList from '../Photolist'; 
+import PhotoList from './../Photolist'; 
+
 
 
 
@@ -11,8 +12,12 @@ const Releases = () => {
             <div>
                   <h1>
                         <div><PhotoList /></div>
+
                   </h1>
-                  <h3></h3>
+                  <h3>
+                  
+                  </h3>
+                  
             </div>
       )
 }

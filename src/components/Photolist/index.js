@@ -8,14 +8,14 @@ const PhotoList = () => {
   const [photos] = useState([
     {
       name: 'False Figure',
-      img: 'https://github.com/JacobReeder/TR_Records_/blob/main/src/assets/cover/0.jpeg',
+      img: 'https://github.com/JacobReeder/TR_Records_/blob/main/src/assets/cover/0.png',
       
       
      
     },
     {
       name: 'Torture Chamber',
-      img: 'https://github.com/JacobReeder/TR_Records_/blob/main/src/assets/cover/1.jpeg',
+      img: 'https://github.com/JacobReeder/TR_Records_/blob/main/src/assets/cover/1.png',
      
       
     },

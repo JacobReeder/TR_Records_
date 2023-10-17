@@ -3,52 +3,52 @@ import './App.css';
 import Nav from './components/Nav';
 import About from './pages/About';
 import Releases from './components/Releases';
-
-
+import ContactForm from "./components/Contact";
 
 
 function App() {
-  const [ currentPage, setCurrentPage ] = useState('About')
+  
+  const [categories] = useState([
+    {
+      name: 'releases',
+      description: 'Album releases from 2023',
+    },
+    { name: 'art gallery', description: 'Artists and their pieces used by Transylvanian Recordings' },
+    { name: 'merch', description: 'TR merchandise past and present' },
+    { name: 'placeholder', description: 'placeholder category; whatever else you would like to go here' },
+  ]);
 
-
-  const renderPage = () => {
-    if (currentPage === 'About') {
-     return <About />
-    }
-
-    if (currentPage ==='Releases') {
-     return <Releases />
-    }
-  }
-
-  const handlePageChange = (page) => setCurrentPage(page);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [contactSelected, setContactSelected] = useState(false);
+  
 
   return (
-
     <div>
-      <header>
-        <div>
-    
-         <a></a>
-         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        </div>
-     </header>
+      <Nav
+       categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+        >
+      </Nav>
       <main>
-        <div>
-          {renderPage()}
-       </div>
-     </main>
-   </div>
-  
+      {!contactSelected ? (
+        <>
+        <Releases currentCategory={currentCategory}></Releases>
+        <About></About>
+        </>
+        ) : (
+        <ContactForm></ContactForm>
+        )}
+       
+      </main>
+      
+    </div>
   );
 }
 
-
-
 export default App;
-
-
-
   
 
   

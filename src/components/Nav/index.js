@@ -1,47 +1,62 @@
 import React from 'react';
-//import { capitalizeFirstLetter } from "../../utils/helpers";
+import { capitalizeFirstLetter } from "../../utils/helpers";
+import coverImage from "../../assets/cover/cover-image.jpg";
 
+function Nav(props) {
+  const {
+    categories = [],
+    setCurrentCategory,
+    currentCategory,
+    contactSelected,
+    setContactSelected
+  } = props;
 
-
-const Nav = (props) => {
-    const { currentPage, handlePageChange} = props;
-  
+ 
 
   return (
-    <header>
-        <h2>
-            <div>
-                <a data-testid="link" href="/">
-                    Transylvanian Recordings
-                </a>
-            </div>
-        </h2>
-
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about"
-                    onClick={() => handlePageChange('About')}
-                    className={currentPage === 'About'? 'nav-link active' : 'nav-link'}
-                    >About</a>
-                </li>
-
-                <li>
-                <a href="#releases"
-                    onClick={() => handlePageChange('Releases')}
-                    className={currentPage === 'Releases'? 'nav-link active' : 'nav-link'}
-                    >Releases</a>
-                </li>
-            </ul>
-        </nav>
+    <header className="flex-row px-1">
+     
+      <h2>
+       <a data-testid="link" href="/">
+          <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+          <span role="img" aria-label="banner"></span> 
+        </a>
+      </h2>
+      <nav>
+        <ul className="flex-row">
+          <li className="mx-2">
+            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+            
+            </a>
+          </li>
+          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+          <span onClick={() => setContactSelected(true)}>
+            Contact
+            </span>
+          </li>
+          {categories.map((category) => (
+            <li
+              className={`mx-1 ${
+                currentCategory.name === category.name && !contactSelected && `navActive`
+                }`}
+              key={category.name}
+            >
+              <span
+                onClick={() => {
+                  setCurrentCategory(category);
+                  setContactSelected(false);
+                }}
+              >
+               {capitalizeFirstLetter(category.name)}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </header>
-
-    
-  )
-
+  );
 }
 
-
-export default Nav;
+export default Nav
 
 

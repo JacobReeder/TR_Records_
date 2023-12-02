@@ -18,8 +18,7 @@ function PhotoList({ category }) {
           name: '2 Caffa "Day of Disease"',
           category: 'releases',
           description: 'Release Date: 11-20-2013',
-        },
-       
+        }, 
        {
           name: '3 Cyanic "Litanies of Lust Unholy"',
           category: 'releases',
@@ -30,8 +29,6 @@ function PhotoList({ category }) {
           category: 'releases',
           description: 'Release Date: "1-11-2014"',
         },
-
-        
         {
           name: '5 Xenotaph "Vitae Lacture"',
           category: 'releases',
@@ -57,37 +54,35 @@ function PhotoList({ category }) {
           category: 'releases',
           description: 'Release Date: 12-12-2014',
         },
-
-        /*
         {
-          name: '10  - ""',
+          name: '10 Cloak "Succumb"',
           category: 'releases',
-          description: 'Release Date: ',
+          description: 'Release Date: 3-11-2015',
         },
         {
-          name: '11  - ""',
+          name: '11 Church - "Uanswered Hymns"',
           category: 'releases',
-          description: '',
+          description: 'Releaase Date: 4-12-2015',
         },
         {
-          name: '12  - ""',
+          name: '12 Swamp Witch "The Slithering Bog"',
           category: 'releases',
-          description: 'Release Date:',
+          description: 'Release Date: 5-15-2015',
         },
         {
-          name: '13  - ""',
+          name: '13 Swamp Witch "The Slithering Bog Chopped to Shit"',
           category: 'releases',
-          description: 'Release Date:',
+          description: 'Release Date: 4-12-2015',
         },
         {
-          name: '14  - ""',
+          name: '14 Devoid "I & II"',
           category: 'releases',
-          description: 'Release Date:',
-        }, */
+          description: 'Release Date: 7-11-2015',
+        }, 
         /*{
-          name: '15  - ""', 
+          name: '15 Beira "Vol.1"', 
           category: 'releases',
-          description: 'Release Date:',
+          description: 'Release Date: 7-11-2015',
         },
         {
           name: '',

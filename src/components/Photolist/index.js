@@ -10,78 +10,82 @@ function PhotoList({ category }) {
 
       const [photos] = useState([
         {
-          name: '1 Citrus',
+          name: '1 Mortuous "Demo 2012"',
           category: 'releases',
-          description: 'Release Date:',
+          description: 'Release Date: 2012',
         },
         {
-          name: '2 Kaspyx',
+          name: '2 Caffa "Day of Disease"',
           category: 'releases',
-          description: 'Release Date:',
+          description: 'Release Date: 11-20-2013',
         },
        
-       /* {
-          name: '3 Yellowcake',
+       {
+          name: '3 Cyanic "Litanies of Lust Unholy"',
+          category: 'releases',
+          description: 'Release Date: 1-11-2014',
+        },
+        {
+          name: '4 Fiend "Demo 2013"',
+          category: 'releases',
+          description: 'Release Date: "1-11-2014"',
+        },
+
+        
+        {
+          name: '5 Xenotaph "Vitae Lacture"',
+          category: 'releases',
+          description: 'Release Date: 3-23-2014',
+        },
+        {
+          name: '6 Swamp Witch "Gnosis"',
+          category: 'releases',
+          description: 'Release Date: 4-20-2014',
+        },
+        {
+          name: '7 Badr Vogu "Agglomeration MMXIV"',
+          category: 'releases',
+          description: 'Release Date: 7-3-2014',
+        },
+        {
+          name: '8 Naught "GETALBUMNAME"',
+          category: 'releases',
+          description: 'Release Date: 10-10-2014',
+        },
+        {
+          name: '9 Cease "Humanity"',
+          category: 'releases',
+          description: 'Release Date: 12-12-2014',
+        },
+
+        /*
+        {
+          name: '10  - ""',
+          category: 'releases',
+          description: 'Release Date: ',
+        },
+        {
+          name: '11  - ""',
+          category: 'releases',
+          description: '',
+        },
+        {
+          name: '12  - ""',
           category: 'releases',
           description: 'Release Date:',
         },
         {
-          name: '4 Miserable Creature',
+          name: '13  - ""',
           category: 'releases',
           description: 'Release Date:',
         },
         {
-          name: '5 Hellish Form',
-          category: 'releases',
-          description: 'Release Date:',
-        },
-        {
-          name: '6 Embodied Torment',
-          category: 'releases',
-          description: 'Release Date:',
-        },
-        {
-          name: '7 Ghorot',
-          category: 'releases',
-          description: 'Release Date:',
-        },
-        {
-          name: '8 Mortal Embodiment - "Unbound Emptiness"',
-          category: 'releases',
-          description: 'Release Date: October 6th 2023',
-        },
-        {
-          name: '9 Without Defeat - "Absurd World"',
-          category: 'releases',
-          description: 'Release Date: October 6th, 2023',
-        },
-        {
-          name: '10 Shitbag - "Submission"',
-          category: 'releases',
-          description: 'Release Date: October 6 2023',
-        },
-        {
-          name: '11 Talk Show - "Hyperstition"',
-          category: 'releases',
-          description: 'Release Date: October 6 2023',
-        },
-        {
-          name: '12 Last - "Sifting Through the Ashes For the Belongings of Our Loved Ones"',
-          category: 'releases',
-          description: 'Release Date:',
-        },
-        {
-          name: '13 Torture Tomb - "Self Titled"',
-          category: 'releases',
-          description: 'Release Date:',
-        },
-        {
-          name: '14 Oromet - "Self Titled"',
+          name: '14  - ""',
           category: 'releases',
           description: 'Release Date:',
         }, */
         /*{
-          name: '15 Shrinkwrap Killers - "Feed the Clones"', 
+          name: '15  - ""', 
           category: 'releases',
           description: 'Release Date:',
         },

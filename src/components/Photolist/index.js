@@ -126,11 +126,47 @@ function PhotoList({ category }) {
         category: 'releases',
         description: 'Releases Date: 9-11-2016',
         },
+        
+        {
+          name: '24 Oozepus "Lypemania"',
+        category: 'releases',
+        description: 'Releases Date: 12-12-2016',
+        },
+        {
+          name: '25 Chronaexus "Outreach From a Withered Hand"',
+        category: 'releases',
+        description: 'Releases Date: 12-12-2016',
+        },
+        {
+          name: '26 Waning "Still Hours"',
+        category: 'releases',
+        description: 'Releases Date: 2-17-2017',
+        },
+        {
+          name: 'Dismembered Carnage "Deranged Butchery"',
+        category: 'releases',
+        description: 'Releases Date: 12-21-2016',
+        },
         /*
         {
-          name: '',
+          name: '""',
         category: 'releases',
-        description: 'Releases Date:',
+        description: 'Releases Date: ',
+        },
+        {
+          name: '""',
+        category: 'releases',
+        description: 'Releases Date: ',
+        },
+        {
+          name: '""',
+        category: 'releases',
+        description: 'Releases Date: ',
+        },
+        {
+          name: '""',
+        category: 'releases',
+        description: 'Releases Date: ',
         },
         */
       ]);

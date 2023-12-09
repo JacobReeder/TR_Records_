@@ -143,32 +143,32 @@ function PhotoList({ category }) {
         description: 'Releases Date: 2-17-2017',
         },
         {
-          name: 'Dismembered Carnage "Deranged Butchery"',
+          name: '27 Dismembered Carnage "Deranged Butchery"',
         category: 'releases',
         description: 'Releases Date: 12-21-2016',
         },
-        /*
+        
         {
-          name: '""',
+          name: '28 Caffa "Mental Enslavement"',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 2-22-2017 ',
         },
         {
-          name: '""',
+          name: '29 Rapid Decline "Less Power, More Violence"',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 4-20-2017',
         },
         {
-          name: '""',
+          name: '30 Daxma "The Nowhere of Shangri-La"',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 4-20-2017',
         },
         {
-          name: '""',
+          name: '31 Enseplucher "No Sanctity in Death "',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 4-20-2017',
         },
-        */
+        
       ]);
       
       const currentPhotos = photos.filter((photo) => photo.category === category);

@@ -11,7 +11,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'releases',
-      description: 'Album releases from 2023',
+      description: 'Album Releases',
     },
     { name: 'art gallery', description: 'Artists and their pieces used by Transylvanian Recordings' },
     { name: 'merch', description: 'TR merchandise past and present' },

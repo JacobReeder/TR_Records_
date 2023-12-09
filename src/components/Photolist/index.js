@@ -79,51 +79,54 @@ function PhotoList({ category }) {
           category: 'releases',
           description: 'Release Date: 7-11-2015',
         }, 
-        /*{
+        {
           name: '15 Beira "Vol.1"', 
           category: 'releases',
           description: 'Release Date: 7-11-2015',
         },
+        
         {
-          name: '',
+          name: '16 Brume "Donkey"',
           category: 'releases',
-          description: 'Releases Date:',
+          description: 'Releases Date: 9-11-2015',
         },
         {
-          name: '',
+          name: '17 Hallucinator "Primeval Power"',
           category: 'releases',
-          description: 'Releases Date:',
+          description: 'Releases Date: 10-27-2015',
         },
         {
-          name: '',
+          name: '18 Defecrator "Tales of Defecration"',
           category: 'releases',
-          description: 'Releases Date:',
+          description: 'Releases Date: 11-11-2015',
         },
         {
-          name: '',
+          name: '19 Cease "Humanity"',
           category: 'releases',
-          description: 'Releases Date:',
+          description: 'Releases Date: 3-11-2016',
+        },
+        
+        {
+          name: '20 Rhizome S/T',
+          category: 'releases',
+          description: 'Releases Date: 3-11-2016',
         },
         {
-          name: '',
-          category: 'releases',
-          description: 'Releases Date:',
-        },
-        {
-          name: '',
+          name: ' 21 Modraniht "To the Dark Mothers',
         category: 'releases',
-        description: 'Releases Date:',
+        description: 'Releases Date: 6-26-2016',
         },
         {
-          name: '',
+          name: '22 Body Void "Ruin"',
         category: 'releases',
-        description: 'Releases Date:',
+        description: 'Releases Date: 6-26-2016',
         },
         {
-          name: '',
+          name: '23 Hands of Thieves "Feasting on Dark Intentions"',
         category: 'releases',
-        description: 'Releases Date:',
+        description: 'Releases Date: 9-11-2016',
         },
+        /*
         {
           name: '',
         category: 'releases',

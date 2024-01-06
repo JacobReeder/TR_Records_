@@ -205,39 +205,39 @@ function PhotoList({ category }) {
         description: 'Releases Date: 8-1-2017',
         },
          {
-          name: '39 ""',
+          name: '39 Xenotaph "Media Morte in Vita Sumus"',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 11-11-2017',
         },
          {
-          name: '40 ""',
+          name: '40 Mystic Priestess "S/T"',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 12-22-2017',
         },
          {
-          name: '41 ""',
+          name: '41 Dipygus "Long Pig Feast"',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 1-11-2018',
         },
          {
-          name: '42 ""',
+          name: '42 Vile Apparition "Atrocious Captivity"',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 1-1-2018',
         },
          {
-          name: '43 ""',
+          name: '43 Dearth "Of Martyrdom and Polluted Faith"',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 7-11-2018',
         },
          {
-          name: '44 ""',
+          name: '44 Atone "S/T"',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 7-11-2018',
         },
          {
-          name: '45 ""',
+          name: '45 Gravecoven "Coughing Blood"',
         category: 'releases',
-        description: 'Releases Date: ',
+        description: 'Releases Date: 7-11-2018',
         },
         */
         

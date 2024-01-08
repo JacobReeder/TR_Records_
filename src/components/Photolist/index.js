@@ -30,7 +30,7 @@ function PhotoList({ category }) {
           description: 'Release Date: "1-11-2014"',
         },
         {
-          name: '5 Xenotaph "Vitae Lacture"',
+          name: '5 Xenotaph "Vitae Lactura"',
           category: 'releases',
           description: 'Release Date: 3-23-2014',
         },
@@ -55,12 +55,12 @@ function PhotoList({ category }) {
           description: 'Release Date: 12-12-2014',
         },
         {
-          name: '10 ClOAK "Succumb"',
+          name: '10 Cloak "Succumb"',
           category: 'releases',
           description: 'Release Date: 3-11-2015',
         },
         {
-          name: '11 Church - "Uanswered Hymns"',
+          name: '11 Church - "Unanswered Hymns"',
           category: 'releases',
           description: 'Releaase Date: 4-12-2015',
         },
@@ -138,18 +138,18 @@ function PhotoList({ category }) {
         description: 'Release Date: 12-12-2016',
         },
         {
-          name: '26 WANING "Still Hours"',
+          name: '26 Waning "Still Hours"',
         category: 'releases',
         description: 'Release Date: 2-17-2017',
         },
         {
-          name: '27 DISMEMBERED CARNAGE "Deranged Butchery"',
+          name: '27 Dismembered Carnage "Deranged Butchery"',
         category: 'releases',
         description: 'Release Date: 12-21-2016',
         },
         
         {
-          name: '28 CAFFA "Mental Enslavement"',
+          name: '28 Caffa "Mental Enslavement"',
         category: 'releases',
         description: 'Release Date: 2-22-2017 ',
         },
@@ -190,7 +190,7 @@ function PhotoList({ category }) {
         description: 'Release Date: 6-26-2016',
         },
          {
-          name: '36 BLAZAR "PHASE OMEGA"',
+          name: '36 Blazar "PHASE OMEGA"',
         category: 'releases',
         description: 'Release Date: 7-7-2017',
         },

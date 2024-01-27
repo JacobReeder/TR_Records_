@@ -168,7 +168,6 @@ function PhotoList({ category }) {
         category: 'releases',
         description: 'Release Date: 4-20-2017',
         },
-        /*
         {
           name: '32 Battle Hag "Tongue of the Earth"',
         category: 'releases',
@@ -204,7 +203,7 @@ function PhotoList({ category }) {
         category: 'releases',
         description: 'Release Date: 8-1-2017',
         },
-         {
+        /* {
           name: '39 Xenotaph "Media Morte in Vita Sumus"',
         category: 'releases',
         description: 'Release Date: 11-11-2017',

@@ -549,37 +549,37 @@ function PhotoList({ category }) {
         category: 'releases',
         description: 'Release Date: 7-27-2021',
         },
-         name: '123 ""',
+         name: '123 Wasteland Coven "Nothin is Real - Turmoil"',
         category: 'releases',
-        description: 'Release Date: ',
+        description: 'Release Date: 8-6-2021',
         },
-         name: '124 ""',
+         name: '124 Ghorot "Loss of Light"',
         category: 'releases',
-        description: 'Release Date: ',
+        description: 'Release Date: 9-3-2021',
         },
-         name: '125 ""',
+         name: '125 Mortuary Punishment "Pride.Power.Punishment"',
         category: 'releases',
-        description: 'Release Date: ',
+        description: 'Release Date: 9-3-2021',
         },
-         name: '126 ""',
+         name: '126 Chrome Ghost "Double EP"',
         category: 'releases',
-        description: 'Release Date: ',
+        description: 'Release Date: 11-5-2021',
         },
-         name: '127 ""',
+         name: '127 Chrome Ghost "Choir of the Low Spirits"',
         category: 'releases',
-        description: 'Release Date: ',
+        description: 'Release Date: 11-5-2021',
         },
-         name: '128 ""',
+         name: '128 Harlequin "Deep Throat"',
         category: 'releases',
-        description: 'Release Date: ',
+        description: 'Release Date: 11-21-2021',
         },
-         name: '129 ""',
+         name: '129 Religious Observance "S/T"',
         category: 'releases',
-        description: 'Release Date: ',
+        description: 'Release Date: 11-22-2021',
         },
-         name: '130 ""',
+         name: '130 Sleipnir "Ambient Tape 04"',
         category: 'releases',
-        description: 'Release Date: ',
+        description: 'Release Date: 11-26-2021',
         },
          name: '131 ""',
         category: 'releases',
@@ -664,19 +664,23 @@ function PhotoList({ category }) {
     return (
       <div>
         {isModalOpen && (
-        <Modal currentPhoto={currentPhoto} onClose={toggleModal} />
+       <Modal currentPhoto={currentPhoto} onClose={toggleModal} />
         )}       
           <div className="flex-row">
-        {currentPhotos.map((image, i) => ( 
-          <img
+            {currentPhotos.map((image, i) => ( 
+            <img
             src={require(`../../assets/small/${category}/${i}.jpg`)}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}
             key={image.name}
-          />
-        ))}
-      </div>
+           />
+           ))}
+           <p>
+          title
+        </p>
+        </div>
+        
       </div>
     );
   };
